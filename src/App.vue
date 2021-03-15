@@ -1,35 +1,29 @@
 <template>
-  <div id="app">
-    <div class="h-screen" :class="theme">
-      <div>
-        <button
-          class="focus:outline-none"
-          :title="
-            theme == 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'
-          "
-          @click="toggleDarkMode"
-        >
-          <icon v-if="theme == 'dark'" name="moon" class="w-8 h-8"></icon>
-          <icon v-else name="sun" class="w-8 h-8"></icon>
-        </button>
-      </div>
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-    </div>
-    <!-- <router-view /> -->
+  <div
+    id="app"
+    class="h-screen 2xl:w-8/12 2xl:mx-auto"
+    :class="theme == 'dark' ? 'bg-gray-900 text-gray-400' : ''"
+  >
+    <SideMenu :showMenu="showMenu" @showMenu="showMenu = !showMenu" />
+    <Navbar :theme="theme" @toggleDarkMode="toggleDarkMode" />
+
+    <router-view />
   </div>
 </template>
 
 <script>
-import Icon from "./components/Icon.vue";
+import Navbar from "./components/Navbar";
+import SideMenu from "./components/SideMenu";
 export default {
   name: "app",
   components: {
-    Icon
+    Navbar,
+    SideMenu
   },
   data() {
     return {
-      theme: "dark"
+      theme: "dark",
+      showMenu: false
     };
   },
   methods: {
@@ -45,7 +39,8 @@ export default {
 </script>
 
 <style lang="scss">
-.dark {
-  @apply dark:bg-red-600;
+* {
+  font-family: "Poppins", "sans-serif";
+  -webkit-font-smoothing: antialiased;
 }
 </style>

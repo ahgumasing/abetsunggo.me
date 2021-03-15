@@ -1,5 +1,5 @@
 <template>
   <div class="px-6">
-    About
+    Works
   </div>
 </template>
