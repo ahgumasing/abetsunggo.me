@@ -1,6 +1,6 @@
 <template>
   <nav class="px-32 py-12 flex items-center">
-    <div class="w-64 justify-between font-medium hidden  lg:flex">
+    <div class="w-64 justify-between font-medium hidden lg:flex">
       <router-link
         class="hover:text-blue-600"
         :class="theme == 'dark' ? 'hover:text-teal-400' : ''"

@@ -1,10 +1,15 @@
 <template>
   <div
     id="app"
-    class="h-screen 2xl:w-8/12 2xl:mx-auto"
-    :class="theme == 'dark' ? 'bg-gray-900 text-gray-400' : ''"
+    class="2xl:w-8/12 2xl:mx-auto 2xl:py-12"
+    :class="theme == 'dark' ? 'bg-gray-900 text-gray-200' : ''"
   >
-    <SideMenu :showMenu="showMenu" @showMenu="showMenu = !showMenu" />
+    <SideMenu
+      :theme="theme"
+      :showMenu="showMenu"
+      @showMenu="showMenu = !showMenu"
+      @darkMode="toggleDarkMode"
+    />
     <Navbar :theme="theme" @toggleDarkMode="toggleDarkMode" />
 
     <router-view />
@@ -40,7 +45,7 @@ export default {
 
 <style lang="scss">
 * {
-  font-family: "Poppins", "sans-serif";
+  font-family: "Inter", "sans-serif";
   -webkit-font-smoothing: antialiased;
 }
 </style>
