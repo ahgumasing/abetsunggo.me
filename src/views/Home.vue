@@ -24,7 +24,7 @@ export default {
       heading:
         "Creating and Implementing well maintable code and high quality solutions.",
       text:
-        "A Front-End Web Developer which specialize VueJS and loves designing."
+        "A Front-End Web Developer has specialize in VueJS and loves designing."
     };
   }
 };
