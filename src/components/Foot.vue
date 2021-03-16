@@ -6,7 +6,7 @@
     <div
       class="text-center py-4 text-sm w-9/12 mx-auto flex justify-between md:w-full md:justify-end lg:text-lg lg:w-full lg:justify-end"
     >
-      <div class="w-48 flex justify-between mx-auto md:mx-0 lg:mx-0">
+      <div class="w-48 py-4 flex justify-between mx-auto md:mx-0 lg:mx-0">
         <router-link
           :class="
             theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
