@@ -2,7 +2,7 @@
   <div class="flex px-6 md:px-12 lg:py-20 lg:px-28 lg:h-full pb-12 ">
     <div>
       <h1
-        :class="theme == 'dark' ? 'text-teal-400' : ''"
+        :class="theme == 'dark' ? 'text-teal-400' : 'text-blue-600'"
         class="mt-7 text-3xl w-72 font-extrabold md:text-6xl  md:w-full lg:text-5xl lg:w-11/12"
       >
         Who am i?
@@ -19,8 +19,8 @@
       <div v-for="employment in employment" :key="employment.id">
         <div class="mt-10 text-sm lg:text-base">
           <dt
-            :class="theme == 'dark' ? 'text-teal-400' : ''"
-            class="font-semibold"
+            :class="theme == 'dark' ? 'text-teal-400' : 'text-blue-600'"
+            class="font-medium"
           >
             {{ employment.intern.postion }}
           </dt>
@@ -29,8 +29,8 @@
         </div>
         <div class="mt-10 text-sm lg:text-base">
           <dt
-            :class="theme == 'dark' ? 'text-teal-400' : ''"
-            class="font-semibold"
+            :class="theme == 'dark' ? 'text-teal-400' : 'text-blue-600'"
+            class="font-medium"
           >
             {{ employment.graphic.postion }}
           </dt>
