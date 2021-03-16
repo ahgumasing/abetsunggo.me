@@ -12,7 +12,7 @@
     />
     <Navbar :theme="theme" @toggleDarkMode="toggleDarkMode" />
 
-    <router-view />
+    <router-view :theme="theme"> </router-view>
   </div>
 </template>
 
@@ -31,6 +31,7 @@ export default {
       showMenu: false
     };
   },
+
   methods: {
     toggleDarkMode() {
       if (this.theme == "dark") {
