@@ -21,7 +21,8 @@ const routes = [
   {
     path: "/Works",
     name: "Works",
-    component: Works
+    component: Works,
+    props: true
   }
 ];
 

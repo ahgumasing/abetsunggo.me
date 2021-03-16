@@ -2,7 +2,7 @@
   <div
     id="app"
     class="2xl:w-8/12 2xl:mx-auto 2xl:py-12"
-    :class="theme == 'dark' ? 'bg-gray-900 text-gray-200' : ''"
+    :class="theme == 'dark' ? 'bg-gray-800 text-gray-200' : ''"
   >
     <SideMenu
       :theme="theme"

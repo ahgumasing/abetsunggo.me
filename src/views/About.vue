@@ -1,15 +1,16 @@
 <template>
-  <div class="flex px-6 md:px-12 lg:py-16 lg:px-28 lg:h-full pb-12 ">
+  <div class="flex px-6 md:px-12 lg:py-20 lg:px-28 lg:h-full pb-12 ">
     <div>
       <h1
-        class=" text-blue-600 mt-7 text-3xl w-72 font-extrabold md:text-6xl  md:w-full lg:text-5xl lg:w-11/12"
+        :class="theme == 'dark' ? 'text-teal-400' : ''"
+        class="mt-7 text-3xl w-72 font-extrabold md:text-6xl  md:w-full lg:text-5xl lg:w-11/12"
       >
         Who am i?
       </h1>
       <p class="w-64 py-10 md:w-full lg:w-8/12">
-        I'm a Front-End Web Developer based in the Philippines. My day to day
-        usually consists of converting the visual design into code and investing
-        huge amount of time to continously improve myself.
+        I work as a Front-End Web Developer. My typical day consists of
+        translating visual designs into code and spending a significant amount
+        of time in self-improvement.
       </p>
       <p class="w-64 py-4 md:w-9/12 lg:w-6/12">
         Aside from coding, I also love designing, playing computer games,
@@ -54,7 +55,7 @@ export default {
         {
           intern: {
             id: 0,
-            postion: "UI / UX Intern",
+            postion: "UI / UX Designer Intern",
             company: "PearlPay Inc.",
             date: "Nov 2020 - Feb 2021"
           },
