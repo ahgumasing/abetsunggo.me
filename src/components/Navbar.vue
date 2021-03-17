@@ -29,11 +29,11 @@
         :class="theme == 'dark' ? 'hover:text-teal-400' : ''"
         @click="$emit('toggleDarkMode')"
         :title="
-          theme == 'dark' ? 'Switch to Dark Mode.' : 'Switch to Light Mode.'
+          theme == 'light' ? 'Switch to Dark Mode.' : 'Switch to Light Mode.'
         "
         class=" focus:outline-none hover:text-blue-600"
       >
-        <icon v-if="theme == 'dark'" name="moon" class="w-8 h-8"></icon>
+        <icon v-if="theme == 'light'" name="moon" class="w-8 h-8"></icon>
         <icon v-else name="sun" class="w-8 h-8 "></icon>
       </button>
     </div>
