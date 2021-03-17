@@ -7,7 +7,7 @@
       Designs
     </h1>
     <div
-      class="pt-12 pb-12 grid grid-rows-7 space-y-4 md:grid-cols-3 md:space-y-8 md:space-x-8 md:grid-rows-none md:pb-32"
+      class="pt-12 pb-12 grid grid-rows-8 space-y-4 md:grid-cols-3 md:space-y-8 md:space-x-8 md:grid-rows-none md:pb-32"
     >
       <div>
         <img class="mt-8 w-84 h-84" src="@/assets/AG_Logo.png" alt="" />
@@ -32,6 +32,13 @@
         <img
           class="shadow-lg mt-8 w-84 h-84"
           src="@/assets/brauni.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="shadow-lg mt-8"
+          src="https://instagram.fmnl17-4.fna.fbcdn.net/v/t51.2885-15/e35/117974977_326720071853087_1609871240902885826_n.jpg?tp=1&_nc_ht=instagram.fmnl17-4.fna.fbcdn.net&_nc_cat=111&_nc_ohc=1DuHfUcak5sAX-74LvJ&oh=62fa751c8d4612992b7223288945cbe5&oe=607B58C9"
           alt=""
         />
       </div>
