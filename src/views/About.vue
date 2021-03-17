@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-6 md:px-12 lg:py-4 lg:px-28 lg:h-full mb-16 ">
+  <div class=" flex px-6 md:px-12 lg:py-4 lg:px-28 lg:h-full ">
     <div>
       <h1
         :class="theme == 'dark' ? 'text-teal-400' : 'text-blue-600'"
@@ -35,7 +35,7 @@
             {{ employment.graphic.postion }}
           </dt>
           <dt class="text-gray-500">{{ employment.graphic.company }}</dt>
-          <dt class="text-gray-500">{{ employment.graphic.date }}</dt>
+          <dt class="text-gray-500 pb-16">{{ employment.graphic.date }}</dt>
         </div>
       </div>
     </div>

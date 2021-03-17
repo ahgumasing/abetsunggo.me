@@ -1,12 +1,12 @@
 <template>
-  <div class="px-6 md:px-12 lg:py-5 lg:px-28 lg:h-full ">
+  <div class="px-6 md:px-12 lg:py-5 lg:px-28 lg:h-full pb-12 ">
     <h1
       class="mt-7 text-4xl w-72 font-extrabold md:text-6xl md:w-10/12 lg:text-7xl lg:w-11/12"
     >
       {{ heading }}
     </h1>
     <p
-      class="text-sm w-64 py-6 md:text-lg md:w-8/12 lg:text-2xl lg:py-10 text-gray-500 mb-14"
+      class="text-sm w-64 py-6 md:text-lg md:w-8/12 lg:text-xl lg:py-10 text-gray-500 mb-24 "
     >
       {{ text }}
     </p>

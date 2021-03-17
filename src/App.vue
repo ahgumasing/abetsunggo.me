@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      theme: "dark",
+      theme: "light",
       showMenu: false
     };
   },
