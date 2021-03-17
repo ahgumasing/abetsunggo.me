@@ -7,7 +7,7 @@
       <router-link to="/about">About</router-link>
       <router-link to="/works">Works</router-link>
       <button @click="$emit('darkMode')" class="ml-auto focus:outline-none">
-        <icon v-if="theme == 'dark'" name="moon" class="w-8 h-8"></icon>
+        <icon v-if="theme == 'light'" name="moon" class="w-8 h-8"></icon>
         <icon v-else name="sun" class="w-8 h-8 "></icon>
       </button>
     </div>
