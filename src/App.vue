@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss">
 * {
-  font-family: "Inter", "sans-serif";
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 </style>

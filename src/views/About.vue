@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-6 md:px-12 lg:py-20 lg:px-28 lg:h-full pb-12 ">
+  <div class="flex px-6 md:px-12 lg:py-4 lg:px-28 lg:h-full mb-16 ">
     <div>
       <h1
         :class="theme == 'dark' ? 'text-teal-400' : 'text-blue-600'"

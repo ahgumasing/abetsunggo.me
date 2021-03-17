@@ -19,17 +19,17 @@
             :class="
               theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
             "
-            class="flex text-xs lg:text-base lg:pt-8"
+            class="flex text-xs lg:text-sm items-center lg:pt-8"
             href="http://bpls.online/"
-            >Website<icon class="h-4 w-4 ml-1 lg:h-6 lg:w-6" name="link"></icon
+            >Website<icon class="h-4 w-4 ml-1" name="link"></icon
           ></a>
           <a
             :class="
               theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
             "
-            class="flex text-xs ml-2 lg:text-base lg:pt-8"
+            class="flex text-xs ml-2 lg:text-sm items-center lg:pt-8"
             href="https://github.com/kevinbaltazar/bpls"
-            >Github<icon class="h-4 w-4 ml-1 lg:h-6 lg:w-6" name="link"></icon
+            >Github<icon class="h-4 w-4 ml-1" name="link"></icon
           ></a>
         </div>
       </div>
@@ -49,17 +49,17 @@
             :class="
               theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
             "
-            class="flex text-xs lg:text-base lg:pt-8"
+            class="flex text-xs lg:text-sm items-center lg:pt-8"
             href="http://bpls.online/"
-            >Website<icon class="h-4 w-4 ml-1 lg:h-6 lg:w-6" name="link"></icon
+            >Website<icon class="h-4 w-4 ml-1" name="link"></icon
           ></a>
           <a
             :class="
               theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
             "
-            class="flex text-xs ml-2 lg:text-base lg:pt-8"
+            class="flex text-xs ml-2 lg:text-sm items-center lg:pt-8"
             href="https://github.com/ahgumasing/abetsunggo.me"
-            >Github<icon class="h-4 w-4 ml-1 lg:h-6 lg:w-6" name="link"></icon
+            >Github<icon class="h-4 w-4 ml-1" name="link"></icon
           ></a>
         </div>
       </div>
