@@ -36,7 +36,7 @@
       <label aria-label="Copyright">
         2021© Abetsunggo. All Rights Reserved.</label
       >
-      <div class="flex justify-between w-40 py-4 mx-auto md:mx-0">
+      <div class="flex justify-between w-48 py-4 mx-auto md:mx-0">
         <a
           :class="
             theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
@@ -57,6 +57,13 @@
           "
           href="https://twitter.com/abetsunggo"
           ><icon class="h-8 w-8 lg:h-10 lg:w-10" name="twitter"></icon
+        ></a>
+        <a
+          :class="
+            theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
+          "
+          href="https://dribbble.com/ahgumasing"
+          ><icon class="h-8 w-8 lg:h-9 lg:w-9" name="dribbble"></icon
         ></a>
       </div>
     </div>
