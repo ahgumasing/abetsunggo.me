@@ -31,13 +31,21 @@ export default {
       showMenu: false
     };
   },
+  watch: {
+    theme() {
+      localStorage.setItem("theme", JSON.stringify(this.theme));
+    }
+  },
+  created() {
+    this.theme = JSON.parse(localStorage.getItem("theme"));
+  },
 
   methods: {
     toggleDarkMode() {
       if (this.theme == "dark") {
-        this.theme = this.theme = "light";
+        this.theme = "light";
       } else {
-        this.theme = this.theme = "dark";
+        this.theme = "dark";
       }
     }
   }

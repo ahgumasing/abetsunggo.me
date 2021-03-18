@@ -8,6 +8,7 @@
     >
       <div class="w-48 py-4 flex justify-between mx-auto md:mx-0 lg:mx-0">
         <router-link
+          @click.native="scrollToTop"
           :class="
             theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
           "
@@ -15,6 +16,7 @@
           >Home</router-link
         >
         <router-link
+          @click.native="scrollToTop"
           :class="
             theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
           "
@@ -22,6 +24,7 @@
           >About</router-link
         >
         <router-link
+          @click.native="scrollToTop"
           :class="
             theme == 'dark' ? 'hover:text-teal-400' : 'hover:text-blue-600'
           "
@@ -77,6 +80,11 @@ export default {
   props: ["theme"],
   components: {
     Icon
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    }
   }
 };
 </script>
